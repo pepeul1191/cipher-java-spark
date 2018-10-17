@@ -1,0 +1,140 @@
+{
+	"id": "71fe9450-a727-2357-7b96-69038240f72e",
+	"name": "Cipher",
+	"description": "",
+	"order": [
+		"2f0c0d55-5b10-3c3d-b0f4-906fcf398ccc",
+		"0dc28ee0-19ba-3ee2-abe3-372cae7655a1",
+		"f8610571-792d-f6fc-d8bd-147120c0e223"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1539745027373,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0dc28ee0-19ba-3ee2-abe3-372cae7655a1",
+			"headers": "csrf_vals: PKBcauXg6sTXz7Ddlty0nejVgoUodXL89KNxcrfwkEme0Huqtj6jjt4fP7v2uF4L\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "csrf_vals",
+					"value": "PKBcauXg6sTXz7Ddlty0nejVgoUodXL89KNxcrfwkEme0Huqtj6jjt4fP7v2uF4L",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4200/encrypt",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "key",
+					"value": "aswJtOhWtidEhegj",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "data",
+					"value": "kiki123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1539791654183,
+			"name": "encrypt",
+			"description": "",
+			"collectionId": "71fe9450-a727-2357-7b96-69038240f72e",
+			"responses": []
+		},
+		{
+			"id": "2f0c0d55-5b10-3c3d-b0f4-906fcf398ccc",
+			"headers": "csrf_val: PKBcauXg6sTXz7Ddlty0nejVgoUodXL89KNxcrfwkEme0Huqtj6jjt4fP7v2uF4L\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "csrf_val",
+					"value": "PKBcauXg6sTXz7Ddlty0nejVgoUodXL89KNxcrfwkEme0Huqtj6jjt4fP7v2uF4L",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4200/decrypt",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "key",
+					"value": "aswJtOhWtidEhegj",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "data",
+					"value": "YcF54fUd4tXyz4oLLzeIvw==",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1539792128252,
+			"name": "decrypt",
+			"description": "",
+			"collectionId": "71fe9450-a727-2357-7b96-69038240f72e",
+			"responses": []
+		},
+		{
+			"id": "f8610571-792d-f6fc-d8bd-147120c0e223",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:4200/key",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "71fe9450-a727-2357-7b96-69038240f72e",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:4200/key",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1539791302869,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

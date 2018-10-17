@@ -6,8 +6,11 @@ import static spark.Spark.port;
 import static spark.Spark.options;
 import static spark.Spark.before;
 import static spark.Spark.get;
+import static spark.Spark.post;
 import configs.FilterHandler;
 import handlers.KeyHandler;
+import handlers.EncryptHandler;
+import handlers.DecryptHandler;
 
 public class App {
   public static void main(String args[]){
@@ -39,6 +42,8 @@ public class App {
 			return "Conxión OK";
 		});
 		//rutas de servicios REST a handlers
-		get("/key", KeyHandler.generate);		
+		get("/key", KeyHandler.generate);
+		post("/encrypt", EncryptHandler.one);
+		post("/decrypt", DecryptHandler.one);
   }
 }

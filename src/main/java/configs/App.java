@@ -7,6 +7,7 @@ import static spark.Spark.options;
 import static spark.Spark.before;
 import static spark.Spark.get;
 import configs.FilterHandler;
+import handlers.KeyHandler;
 
 public class App {
   public static void main(String args[]){
@@ -37,5 +38,7 @@ public class App {
 		get("/test/conexion", (request, response) -> {
 			return "Conxión OK";
 		});
+		//rutas de servicios REST a handlers
+		get("/key", KeyHandler.generate);		
   }
 }

@@ -15,7 +15,7 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Controlador Bucle" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <intProp name="LoopController.loops">-1</intProp>
+          <stringProp name="LoopController.loops">3</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">100</stringProp>
         <stringProp name="ThreadGroup.ramp_time">0.01</stringProp>
@@ -52,7 +52,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="key" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">lQCue5r2U5YrR</stringProp>
+                <stringProp name="Argument.value">aswJtOhWtidEhegj</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">key</stringProp>
@@ -88,14 +88,14 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="key" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">lQCue5r2U5YrR</stringProp>
+                <stringProp name="Argument.value">aswJtOhWtidEhegj</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">key</stringProp>
               </elementProp>
               <elementProp name="data" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">vPWKzwMiwQniX0HmpIrBW416CZzRDYksG991XW+a9iU=</stringProp>
+                <stringProp name="Argument.value">YcF54fUd4tXyz4oLLzeIvw==</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">data</stringProp>

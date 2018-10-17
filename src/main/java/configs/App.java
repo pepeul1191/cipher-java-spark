@@ -41,6 +41,9 @@ public class App {
 		get("/test/conexion", (request, response) -> {
 			return "Conxión OK";
 		});
+		//filters
+		before("/encrypt", FilterHandler.ambienteCSRF);
+		before("/decrypt", FilterHandler.ambienteCSRF);
 		//rutas de servicios REST a handlers
 		get("/key", KeyHandler.generate);
 		post("/encrypt", EncryptHandler.one);
